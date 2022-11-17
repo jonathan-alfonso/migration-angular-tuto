@@ -1,0 +1,18 @@
+{
+  "files": [
+    "app/main.ts",
+    "app/contacts/contacts.module.ts"
+  ],
+  "compilerOptions": {
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "target": "es5",
+    "outDir": "transpiled/app",
+    "declaration": false,
+    "sourceMap": true,
+    "skipLibCheck": true,
+    "lib": ["es6", "dom"]
+  }
+}
